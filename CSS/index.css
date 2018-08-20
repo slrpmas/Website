@@ -60,7 +60,7 @@
 }
 #HeaderText {
 	text-align: center;
-	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-family: 'Century Gothic', sans-serif;
 	text-transform: uppercase;
 	color: Black;
 	font-size: 3em;
@@ -77,6 +77,58 @@
 	padding-top: 3%;
 }
 @media only screen and (max-width: 800px) {
+	#HeaderText {
+		position: relative;
+		font-family: 'Times New Roman', serif;
+		font-size: 1em;
+		padding: 0;
+		margin-top: 20%;
+		height: inherit;
+		text-align: center;
+	}
+	#CreditText {
+		font-family: 'Century Gothic';
+		font-size: 1em;
+		padding: 0;
+		margin: 0;
+	}
+	#PictureBox {
+		width: 50%;
+		top: 0;
+		left: 0;
+		height: 50%;
+	}
+	#WelcomeBox {
+		width: 50%;
+		top: 0;
+		left: 50%;
+		height: 25%;
+	}
+	#RegistrationBox {
+		width: 50%;
+		top: 25%;
+		left: 50%;
+		height: 25%;
+	}
+	#ContactUsBox {
+		width: 50%;
+		top: 50%;
+		left: 0;
+		height: 25%;
+	}
+	#ActivitiesBox {
+		width: 50%;
+		top: 50%;
+		left: 50%;
+		height: 50%;
+	}
+	#Credits {
+		width: 50%;
+		top: 75%;
+		height: 25%;
+		left: 0;
+	}
+@media only screen and (max-width: 600px) {
 	#WelcomeBox, #ActivitiesBox, #PictureBox, #RegistrationBox, #ContactUsBox, #Credits {
 		width: 100%;
 		height: 20%;
