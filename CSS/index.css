@@ -128,12 +128,53 @@
 		height: 25%;
 		left: 0;
 	}
+}	
 @media only screen and (max-width: 600px) {
-	#WelcomeBox, #ActivitiesBox, #PictureBox, #RegistrationBox, #ContactUsBox, #Credits {
+	#WelcomeBox{
 		width: 100%;
 		height: 20%;
-		position: relative;
+		position: absolute;
 		top: 0;
+		left: 0;
+		right: 0;
+	}
+	#ActivitiesBox{
+		width: 100%;
+		height: 20%;
+		position: absolute;
+		top: 20%;
+		left: 0;
+		right: 0;
+	}
+	#PictureBox{
+		width: 100%;
+		height: 20%;
+		position: absolute;
+		top: 40%;
+		left: 0;
+		right: 0;
+	}
+	#RegistrationBox{
+		width: 100%;
+		height: 20%;
+		position: absolute;
+		top: 60%;
+		left: 0;
+		right: 0;
+	}
+	#ContactUsBox{
+		width: 100%;
+		height: 20%;
+		position: absolute;
+		top: 80%;
+		left: 0;
+		right: 0;
+	}
+	#Credits{
+		width: 100%;
+		height: 20%;
+		position: absolute;
+		top: 100%;
 		left: 0;
 		right: 0;
 	}
@@ -142,16 +183,16 @@
 		font-family: 'Century Gothic', sans-serif;
 		text-transform: uppercase;
 		color: Black;
-		font-size: 3em;
+		font-size: 1em;
 		margin: 0;
-		padding-top: 20%;
+		padding-top: 5%;
 	}
 	#CreditText {
 		text-align: center;
 		font-family: 'M PLUS Rounded 1c', sans-serif;
 		text-transform: uppercase;
 		color: White;
-		font-size: 3em;
+		font-size: 1em;
 		margin: 0;
 		padding-top: 3%;
 	}
