@@ -137,4 +137,22 @@
 		left: 0;
 		right: 0;
 	}
+	#HeaderText {
+		text-align: center;
+		font-family: 'Century Gothic', sans-serif;
+		text-transform: uppercase;
+		color: Black;
+		font-size: 3em;
+		margin: 0;
+		padding-top: 20%;
+	}
+	#CreditText {
+		text-align: center;
+		font-family: 'M PLUS Rounded 1c', sans-serif;
+		text-transform: uppercase;
+		color: White;
+		font-size: 3em;
+		margin: 0;
+		padding-top: 3%;
+	}
 }
